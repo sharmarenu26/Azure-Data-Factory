@@ -1,0 +1,62 @@
+{
+	"name": "AzureSqlTableMadhav",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureSqlDatabase1",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [
+			{
+				"name": "EntityNumber",
+				"type": "nvarchar"
+			},
+			{
+				"name": "BusinessName",
+				"type": "nvarchar"
+			},
+			{
+				"name": "BarCodeKey",
+				"type": "nvarchar"
+			},
+			{
+				"name": "AddedBy",
+				"type": "nvarchar"
+			},
+			{
+				"name": "AgentType",
+				"type": "nvarchar"
+			},
+			{
+				"name": "AgentName",
+				"type": "nvarchar"
+			},
+			{
+				"name": "AgentPhysicalStreetAddress1",
+				"type": "nvarchar"
+			},
+			{
+				"name": "AgentPhysicalStreetAddress2",
+				"type": "nvarchar"
+			},
+			{
+				"name": "AgentPhysicalCity",
+				"type": "nvarchar"
+			},
+			{
+				"name": "AgentPhysicalState",
+				"type": "nvarchar"
+			},
+			{
+				"name": "AgentPhysicalZipCode",
+				"type": "nvarchar"
+			}
+		],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "Madhav"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

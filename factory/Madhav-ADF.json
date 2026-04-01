@@ -1,0 +1,9 @@
+{
+	"name": "Madhav-ADF",
+	"location": "centralus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "c2b2f6c0-b2b7-4166-8e5d-3b929b5ad4d8",
+		"tenantId": "8b83d8c0-d75b-4476-943a-c2ff79460122"
+	}
+}
